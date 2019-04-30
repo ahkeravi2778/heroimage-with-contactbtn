@@ -1,0 +1,28 @@
+.main {
+    background: linear-gradient(0deg,rgba(5, 5, 5, 0.66),rgba(31, 29, 30, 0.5)),url(/main.jpg);
+
+    background-size: cover;
+    height: 532px;
+    position: relative;
+}
+
+.log {
+    position: absolute;
+    top: 17%;
+    right: 20%;
+    height: 253px;
+    width: 229px;
+    text-align: center;
+}
+
+.btn-edited {
+    padding: 5px 30px !important;
+    width: 130px;
+    border-radius: 35px;
+    border: 1px solid;
+}
+
+a.btn.btn-edited:hover {
+    background: black;
+    color: white;
+}
